@@ -71,6 +71,7 @@ export default {
                     console.log(data);
                     try {
                         alert("saveddddd");
+                        this.$router.push({name: 'Login'})
                     } catch (err) {
                         alert("failed");
                     }
